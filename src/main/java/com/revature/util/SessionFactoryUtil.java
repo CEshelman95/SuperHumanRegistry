@@ -14,9 +14,9 @@ public class SessionFactoryUtil {
 	
 	private static SessionFactory sf;
 	private static SessionFactoryUtil sfu;
-	private static final String USERNAME = System.getenv("SHR_USERNAME");
-	private static final String PASSWORD = System.getenv("SHR_PASSWORD");
-	private static final String URL = "jdbc:postgresql://" + System.getenv("SHR_URL") + ":5432/postgres?";
+	private static final String USERNAME = "postgres";
+	private static final String PASSWORD = "HelloYes879";
+	private static final String URL = "jdbc:postgresql://feb10-2002-chris.cu70whfvvuvd.us-east-2.rds.amazonaws.com:5432/postgres?";
 	private static String schema = "public";
 	
 	public static SessionFactoryUtil getSessionFactoryUtil() {
